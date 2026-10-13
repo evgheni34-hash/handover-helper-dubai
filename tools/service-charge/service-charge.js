@@ -1,0 +1,2 @@
+'use strict';
+document.getElementById('copy-email').addEventListener('click',async()=>{const email=document.getElementById('dispute-email'),status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(email.value);status.textContent='Copied. Replace the placeholders before sending.';}catch{email.focus();email.select();status.textContent='Select the text and use your device’s Copy command.';}});

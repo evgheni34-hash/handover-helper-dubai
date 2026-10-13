@@ -1,6 +1,7 @@
 'use strict';
 const dictionary = {
   en: {
+    toolsNav: 'Tools', toolsEyebrow: 'Free owner tools', toolsTitle: 'Go deeper with your next step.', toolsIntro: 'Five practical tools, available in English.',
     brand: 'Handover Helper Dubai', language: 'Choose language', eyebrow: 'Dubai property · A clearer next step',
     hero: 'From keys to rental income — one checklist', intro: 'A practical starting point for your Dubai handover. Track the essentials, explore example costs, and get help where you need it.', start: 'Build your handover plan ↓', talk: 'Talk to Eugene ↗', byline: 'With Eugene Curocichin · Dubai real estate broker', artCaption: 'YOUR NEXT CHAPTER',
     checkEyebrow: '01 / Your roadmap', checkTitle: 'Ten steps. One place.', checkIntro: 'Work through these at your own pace. Requirements depend on your property, developer and intended use.', saved: 'Saved on this device', progressLabel: 'Checklist completion', progressText: '{done} of 10 steps complete', help: 'Get help ↗',
@@ -21,6 +22,7 @@ const dictionary = {
     ]
   },
   ru: {
+    toolsNav: 'Инструменты', toolsEyebrow: 'Инструменты владельца', toolsTitle: 'Подробнее о следующем шаге.', toolsIntro: 'Пять полезных инструментов на английском языке.',
     brand: 'Помощник по передаче жилья · Дубай', language: 'Выбрать язык', eyebrow: 'Недвижимость Дубая · Следующий шаг', hero: 'От ключей до дохода от аренды — один чек-лист', intro: 'Отправная точка для приёмки недвижимости в Дубае. Отмечайте важные этапы, изучайте примерные расходы и получайте помощь.', start: 'Составить план приёмки ↓', talk: 'Связаться с Евгением ↗', byline: 'Евгений Курочихин · Брокер по недвижимости в Дубае', artCaption: 'НОВАЯ ГЛАВА',
     checkEyebrow: '01 / Ваш план', checkTitle: 'Десять шагов в одном месте.', checkIntro: 'Проходите этапы в удобном темпе. Требования зависят от объекта, застройщика и планируемого использования.', saved: 'Сохранено на этом устройстве', progressLabel: 'Выполнение чек-листа', progressText: 'Выполнено {done} из 10 шагов', help: 'Получить помощь ↗',
     estimateEyebrow: '02 / Планирование', estimateTitle: 'Пример бюджета', estimateWarning: 'Только ориентировочные примерные диапазоны — это не реальные предложения. Запросите индивидуальный расчёт.', size: 'Площадь (кв. футы)', level: 'Уровень меблировки', levels: ['Без мебели', 'Базовый', 'Средний', 'Премиум'], costLabels: ['Инспекция дефектов', 'Меблировка', 'Переезд / подключение услуг', 'Страхование'], currency: 'AED', sizeError: 'Укажите площадь от 1 до 100 000 кв. футов.', estimateBasis: 'Условные допущения для этого инструмента, а не рыночные цены: инспекция 0,8–1,5 AED/кв. фут (минимум 600–1 000); мебель 0, 25–45, 50–85 или 100–160 AED/кв. фут; переезд/подключение 1 500–4 000 плюс 0,5–1,5 AED/кв. фут; годовое страхование 500–1 500 плюс 0,1–0,3 AED/кв. фут. Депозиты, объём работ, поставщик и особенности объекта влияют на расчёт. Сборы DLD, разрешения, ремонт и ипотечные расходы не включены.',
